@@ -26,7 +26,7 @@ ol {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: var(--first-color);
   background-color: var(--first-background-color);
   padding-top: 15px;
@@ -49,11 +49,11 @@ img {
 /* Content */
 
 .left-side {
-  padding: 40px 40px;
+  padding: 40px;
   background-color: var(--third-background-color);
 }
 
-.hero-image {
+.hero-photo {
   border-radius: 50%;
   width: 370px;
 }
@@ -64,24 +64,48 @@ img {
 .languages-title {
   margin-top: 50px;
   font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 1.23;
   color: var(--third-color);
 }
 
-.contacts-item,
+.contacts-link,
 .tech-item,
 .soft-item,
 .languages-item {
   margin-top: 10px;
-  font-family: 'Montserrat';
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--third-color);
   opacity: 0.5;
   margin-top: 5px;
+}
+
+.right-side {
+  padding: 95px 85px;
+}
+
+.hero-title,
+.hero-position,
+.projects-title {
+  text-align: center;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.22;
+}
+
+.hero-position {
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+}
+
+.hero-about {
+  margin-top: 25px;
 }

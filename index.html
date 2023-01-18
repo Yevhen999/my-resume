@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leshchenko</title>
+    <link rel="icon" href="./images/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,20 +13,51 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Resume</title>
   </head>
   <body>
     <!--LEFT-SIDE-->
     <div class="container">
       <div class="left-side">
-        <img src="./images/my-photo.jpg" alt="my-photo" class="hero-image" />
+        <img src="./images/my-photo.jpg" alt="my-photo" class="hero-photo" />
         <h3 class="contacts-title">CONTACTS</h3>
         <ul class="contacts-list">
-          <li class="contacts-item">number</li>
-          <li class="contacts-item">leshchenkoyevhen@gmail.com</li>
-          <li class="contacts-item">GitHub</li>
-          <li class="contacts-item">LinkedIn</li>
-          <li class="contacts-item">Oakville, Canada</li>
+          <li class="contacts-item">
+            <a class="contacts-link link" href="tel:+380961111111">number</a>
+          </li>
+          <li class="contacts-item">
+            <a
+              class="contacts-link link"
+              href="mailto:leshchenkoyevhen@gmail.com"
+              >leshchenkoyevhen@gmail.com</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a
+              class="contacts-link link"
+              href="https://github.com/Yevhen999"
+              target="_blank"
+              rel="nofollow noferrer noopener"
+              >GitHub</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a
+              class="contacts-link link"
+              href="https://www.linkedin.com/in/yevhen-leshchenko/"
+              target="_blank"
+              rel="nofollow noferrer noopener"
+              >LinkedIn</a
+            >
+          </li>
+          <li class="contacts-item">
+            <a
+              class="contacts-link link"
+              href="https://goo.gl/maps/VHSRCTN9PERiT1u96"
+              target="_blank"
+              rel="nofollow noferrer noopener"
+              >Oakville, Canada</a
+            >
+          </li>
         </ul>
         <h3 class="tech-title">TECH SKILLS</h3>
         <ul class="tech-list">
@@ -55,9 +88,9 @@
       <div class="right-side">
         <!--ABOUT-->
         <div>
-          <h1>Yevhen Leshchenko</h1>
-          <h2>Front-End Developer</h2>
-          <p>
+          <h1 class="hero-title">Yevhen Leshchenko</h1>
+          <h2 class="hero-position">Front-End Developer</h2>
+          <p class="hero-about">
             I am interested in a full-time position in a company that's aimed at
             making both everyday life and business easier, more productive and
             user-friendly. I have sound knowledge of React, JavaScript, HTML,
@@ -67,32 +100,38 @@
           </p>
         </div>
         <!--PROJECT EXPERIENCE-->
-        <div>
-          <h2>PROJECT EXPERIENCE</h2>
-          <ul>
-            <li>
-              <a href="">Website Filmoteka</a>
-              <a href=""
+        <div class="projects">
+          <h2 class="projects-title">PROJECT EXPERIENCE</h2>
+          <ul class="projects-list">
+            <li class="projects-item">
+              <a class="projects-link" href="">Website Filmoteka</a>
+              <a class="projects-link-git" href=""
                 >GitHub Link
-                <span>[HTML, CSS, JS, SASS, REST API, Parcel]</span></a
+                <span class="projects-stack"
+                  >[HTML, CSS, JS, SASS, REST API, Parcel]</span
+                ></a
               >
-              <p>description</p>
+              <p class="projects">description</p>
             </li>
-            <li>
-              <a href="">Website creation</a>
-              <a href=""
+            <li class="projects-item">
+              <a class="projects-link" href="">Website creation</a>
+              <a class="projects-link-git" href=""
                 >GitHub Link
-                <span>[HTML, CSS, JS, SASS, REST API, Parcel]</span></a
+                <span class="projects-stack"
+                  >[HTML, CSS, JS, SASS, REST API, Parcel]</span
+                ></a
               >
-              <p>description</p>
+              <p class="projects">description</p>
             </li>
-            <li>
-              <a href="">Web Studio</a>
-              <a href=""
+            <li class="projects-item">
+              <a class="projects-link" href="">Web Studio</a>
+              <a class="projects-link-git" href=""
                 >GitHub Link
-                <span>[HTML, CSS, JS, SASS, REST API, Parcel]</span></a
+                <span class="projects-stack"
+                  >[HTML, CSS, JS, SASS, REST API, Parcel]</span
+                ></a
               >
-              <p>description</p>
+              <p class="projects">description</p>
             </li>
           </ul>
         </div>
