@@ -46,6 +46,15 @@ img {
   min-width: 100%;
   height: auto;
 }
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* Content */
 
 .left-side {
@@ -70,6 +79,10 @@ img {
   color: var(--third-color);
 }
 
+.contacts-item {
+  color: var(--second-color);
+}
+
 .contacts-link,
 .tech-item,
 .soft-item,
@@ -89,7 +102,9 @@ img {
 
 .hero-title,
 .hero-position,
-.projects-title {
+.projects-title,
+.work-title,
+.education-title {
   text-align: center;
 }
 
@@ -99,13 +114,94 @@ img {
   line-height: 1.22;
 }
 
-.hero-position {
-  margin-top: 20px;
+.hero-position,
+.projects-title,
+.work-title,
+.education-title {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.22;
 }
 
+.hero-position {
+  margin-top: 20px;
+}
+
 .hero-about {
   margin-top: 25px;
+}
+
+.projects-title,
+.work-title,
+.education-title {
+  margin-top: 40px;
+}
+
+.projects-list,
+.work-list,
+.education-list {
+  margin-top: 15px;
+}
+
+.projects-item,
+.work-list-item {
+  margin-top: 5px;
+}
+
+.projects-link,
+.projects-link-git,
+.work-position,
+.work-company,
+.education-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--first-color);
+}
+
+.projects-stack,
+.projects-description,
+.responsibilities-description,
+.work-achievment {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--second-color);
+}
+
+.projects-stack::before {
+  content: ' [ ';
+  font-weight: 700;
+  color: var(--first-color);
+}
+
+.projects-stack::after {
+  content: ' ]';
+  font-weight: 700;
+  color: var(--first-color);
+}
+
+.work-company,
+.education-name {
+  color: var(--fourth-color);
+}
+
+.work-date,
+.education-date {
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a8a8a8;
+}
+
+.education-name,
+.education-position {
+  margin-top: 10px;
+}
+
+.education-position {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
 }
