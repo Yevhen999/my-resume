@@ -80,20 +80,32 @@ img {
 }
 
 .contacts-item {
+  margin-top: 10px;
   color: var(--second-color);
 }
 
-.contacts-link,
 .tech-item,
 .soft-item,
 .languages-item {
   margin-top: 10px;
+  margin-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--fourth-color);
+  opacity: 0.5;
+}
+
+.contacts-link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: var(--third-color);
   opacity: 0.5;
-  margin-top: 5px;
+}
+
+.item-text {
+  color: var(--third-color);
 }
 
 .right-side {
@@ -148,6 +160,10 @@ img {
   margin-top: 5px;
 }
 
+.work-list-item:first-child {
+  margin-top: 0;
+}
+
 .projects-link,
 .projects-link-git,
 .work-position,
@@ -194,7 +210,10 @@ img {
   color: #a8a8a8;
 }
 
-.education-name,
+.education-item:not(:first-child) {
+  margin-top: 10px;
+}
+
 .education-position {
   margin-top: 10px;
 }
