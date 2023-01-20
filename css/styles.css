@@ -155,13 +155,9 @@ img {
   margin-top: 15px;
 }
 
-.projects-item,
-.work-list-item {
-  margin-top: 5px;
-}
-
-.work-list-item:first-child {
-  margin-top: 0;
+.projects-item:not(:first-child),
+.work-list-item:not(:first-child) {
+  margin-top: 10px;
 }
 
 .projects-link,
@@ -177,7 +173,7 @@ img {
 
 .projects-stack,
 .projects-description,
-.responsibilities-description,
+.responsibilities-item,
 .work-achievment {
   text-decoration: none;
   font-weight: 400;
@@ -201,6 +197,19 @@ img {
 .work-company,
 .education-name {
   color: var(--fourth-color);
+}
+
+.work-position {
+  margin-bottom: 5px;
+}
+
+.responsibilities-item {
+  margin-top: 10px;
+  color: var(--fourth-color);
+}
+
+.responsibilities-text {
+  color: var(--second-color);
 }
 
 .work-date,
