@@ -205,7 +205,8 @@ img {
 
 .responsibilities-item {
   margin-top: 10px;
-  color: var(--fourth-color);
+  margin-left: 15px;
+  list-style: disc;
 }
 
 .responsibilities-text {
@@ -216,7 +217,7 @@ img {
 .education-date {
   font-size: 12px;
   line-height: 1.25;
-  color: #a8a8a8;
+  color: var(--second-color);
 }
 
 .education-item:not(:first-child) {
